@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio - Muntasir Hassan</title>
+    <title>Muntasir Hassan -Front end web developer</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="build.css" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="mh-gold-logo-icon-isolated-white-background-transparent_873925-792345.jpg"
@@ -23,7 +22,7 @@
         class="flex justify-center items-center flex-col px-4 max-w-[500px] w-[90%] max-sm:w-[100%] md:flex-row md:max-w-[800px]"
       >
         <div
-          class="flex flex-col bg-[#ffffff] px-6 py-8 w-[90%] max-sm:px-3 max-sm:py-4 max-sm:w-[100%]"
+          class="flex flex-col bg-[#ffffff] px-6 py-8 w-[90%] max-sm:px-3 max-sm:py-4 max-sm:w-[100%] md:h-full"
         >
           <div class="max-w-[400px] lg:max-w-[600px]">
             <h1
@@ -39,7 +38,7 @@
           </div>
         </div>
         <div
-          class="bg-[#222222] text-[#fbfbfb] max-sm:gap-4 px-4 py-4 flex gap-3 max-sm:w-[100%] md:flex-col w-[90%] md:w-[12%] md:px-0 md:py-[52px] md:gap-4 lg:gap-6 lg:py-[59px]"
+          class="bg-[#222222] text-[#fbfbfb] max-sm:gap-4 px-4 py-4 flex gap-3 max-sm:w-[100%] md:flex-col w-[90%] md:w-[12%] md:gap-4 lg:gap-5 md:h-full lg:py-[35px]"
         >
           <a
             href="https://github.com/muntasir-hassan"
@@ -56,16 +55,62 @@
             ><span class="max-sm:hidden">Email Me</span>
           </a>
           <a
-            href="#project1"
+            href="#about-me"
             class="flex justify-center items-center gap-1 md:flex-col text-center lg:text-lg"
           >
             <i class="bx bx-code-block"></i
-            ><span class="max-sm:hidden">My Projects</span>
+            ><span class="max-sm:hidden">About Me</span>
           </a>
         </div>
       </div>
     </div>
 
+    <div
+      class="min-h-screen bg-[#f0f0f0] flex justify-center items-center"
+      id="about-me"
+    >
+      <div class="px-4 w-full md:px-10 lg:w-2/3">
+        <!-- About Title -->
+        <h2 class="text-3xl font-semibold text-center mb-6">About Me</h2>
+
+        <div
+          class="flex flex-col md:flex-row items-center md:space-x-8 space-y-8 md:space-y-0"
+        >
+          <!-- About Image -->
+          <div class="w-full md:w-1/2 flex justify-center">
+            <img
+              src="me.jpg"
+              alt="Muntasir Hassan"
+              class="rounded-lg shadow-lg max-w-full h-auto"
+            />
+          </div>
+
+          <!-- About Text -->
+          <div class="w-full md:w-1/2 md:max-h-[330px] flex flex-col">
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+              Hi, I'm Muntasir Hassan, a passionate front-end web developer with
+              experience in HTML, CSS, JavaScript, and Tailwind CSS. I
+              specialize in building responsive websites and providing efficient
+              solutions tailored to client needs.
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+              I’m always eager to learn new technologies and take on exciting
+              projects. Let’s work together to build something amazing!
+            </p>
+
+            <!-- Projects Button -->
+            <div class="flex justify-center md:justify-start">
+              <a
+                href="#project1"
+                class="bg-[#222222] text-[#fbfbfb] py-3 px-6 rounded-lg hover:bg-gray-800 transition-colors duration-200 mb-2"
+              >
+                Browse My Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- First 2 Project -->
     <div class="md:flex justify-center bg-[#f0f0f0]">
       <!-- For Project ---1 -->
@@ -74,7 +119,7 @@
         id="project1"
       >
         <div
-          class="flex justify-center md:justify-start flex-col md:w-4/5 md:h-[370px] md:border-2 md:rounded-md"
+          class="flex justify-center md:justify-start max-sm:px-2 flex-col md:w-4/5 md:h-[370px] md:border-2 md:rounded-md"
         >
           <img
             src="project1.PNG"
@@ -121,7 +166,7 @@
         id="project2"
       >
         <div
-          class="flex justify-center flex-col md:w-4/5 md:border-2 md:rounded-md"
+          class="flex justify-center flex-col md:w-4/5 md:border-2 md:rounded-md max-sm:px-2"
         >
           <img
             class="max-w-[400px] w-[100%] md:mb-2 md:rounded-md max-sm:border"
@@ -172,7 +217,7 @@
         id="project3"
       >
         <div
-          class="flex justify-center flex-col md:w-4/5 md:border-2 md:rounded-md"
+          class="flex justify-center flex-col md:w-4/5 md:border-2 md:rounded-md max-sm:px-2"
         >
           <img
             src="project3.png"
@@ -208,7 +253,7 @@
         id="project4"
       >
         <div
-          class="flex justify-center flex-col md:w-4/5 md:border-2 md:rounded-md"
+          class="flex justify-center flex-col md:w-4/5 md:border-2 md:rounded-md max-sm:px-2"
         >
           <img
             src="project4.PNG"
